@@ -1,6 +1,12 @@
 # EloverblikAPI
- 
+This code is my first time using R to call an API
+This is for Home usage, the code is no where near production ready
 
+Please note that data are written as they are imported, this mean that time and date is GMT.
+
+I will improve the scripts over time, but this is the first version.
+
+How to use:
 First you need to create a refresh token.
 Read the manual Documentation/Eloverblik - Adgang til egne data via API-kald.pdf it explains how to get the token.
 
@@ -12,4 +18,7 @@ meter <- "Insert your meter number here"
 refreshtoken <- "Inserte your template here"
 
 Run the script ImportMeterData/ImportMeterDataAPI.R
-Data will now be imported and stored in a file called
+Data will now be imported and stored in a file called in the DF called observation, and stored in a file called observation.RDS.
+
+Best regards
+Henrik
