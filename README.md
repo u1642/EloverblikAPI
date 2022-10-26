@@ -18,7 +18,7 @@ meter <- "Insert your meter number here"
 refreshtoken <- "Inserte your template here"
 
 Run the script ImportMeterData/ImportMeterDataAPI.R
-Data will now be imported and stored in a file called in the DF called observation, and stored in a file called observation.RDS.
+Data will now be imported and stored in a DF called observation, and stored in a file called observation.RDS.
 
 Best regards
 Henrik
