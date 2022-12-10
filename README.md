@@ -13,7 +13,7 @@ Rename the file ImportMeterData/eloverblikParam.template.R file to downloadDate/
 
 Edit ImportMeterData/eloverblikParam.R and add meter number and yout token
 - meter <- "Insert your meter number here"
-- refreshtoken <- "Inserte your template here"
+- refreshtoken <- "Inserte your refreshtoken here"
 
 Run the script ImportMeterData/ImportMeterDataAPI.R
 Data will now be imported and stored:
