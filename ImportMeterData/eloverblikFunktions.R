@@ -5,7 +5,7 @@
 get_data_access_token <- function(refreshtoken) {
   token <- refreshtoken
   path <- "/customerapi/api/token"
-  data_access_token_time <<- Sys.time()
+  data_access_token_time <- Sys.time()
   raw_data_access_token <-
     GET(
       url = url,
